@@ -43,6 +43,7 @@ a {
 .imagen_inicial {
     max-height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 .parrafo {
     margin: 25px;
@@ -71,15 +72,15 @@ iframe {
     max-height: 100%;
     max-width: 100%;
 }
-.i_flex2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
+.i_cont_historia2 {
+    width: 100%; /* El contenedor ocupa el 100% del ancho del viewport */
+    max-width: 100%;
 }
 .ihistoria2 {
-    max-height: 90%;
+    height: 50%;
     width: 100%;
+    object-fit: cover;
+
     margin-top: 10%;
     margin-bottom: 10%;
 }
@@ -92,15 +93,15 @@ footer{
     align-items: center;
 }
 .whatsapp {
-    width: 2.3rem;
+    width: 2.9rem;
     margin-right: 5em;
 }
 .instagram {
-    width: 2.3rem;
+    width: 2.9rem;
     margin-right: 5em;
 }
 .email {
-    width: 2.3rem;
+    width: 2.9rem;
     margin-right: 5em;
 }
 .redes {
@@ -114,6 +115,7 @@ footer{
     color: rgb(112, 14, 34);
     font-size: 1.5rem;
     margin-left: 1.5em;
+    margin-right: 1rem;
     text-align: center;
 }
 .texto {
@@ -152,18 +154,64 @@ nav a:active {
 
 }
 
-.certificados {
-    width: 100px;
-    height: 100px;
-}
+
 .r1 {
     text-align: center;
-    margin: 25px;
 }
+
+.r1 img {
+    width: 12%;
+    height: auto;
+}
+
+.r2 {
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+}
+
+.r2 img {
+    max-width: 15%; /* Hace que las imágenes sean responsivas */
+    height: auto;
+}
+
+.certificados_vino1 {
+    object-fit: cover;
+    height: 80%;
+    width: 80%;
+}
+
+.certificados_vino2 {
+    object-fit: cover;
+    height: 55%;
+    width: 55%;
+}
+
+
 .vino_top {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
+}
+.art1 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+.art2 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+.art3 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+.art4 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
 }
 
 .vino_tendencia {
@@ -172,10 +220,31 @@ nav a:active {
     text-align: center;
 }
 
-.vinos {
+.art5 img {
+    object-fit: contain;
     height: 55%;
-    width: 45%;
+    width: 55%;
 }
+
+.art6 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+
+.art7 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+
+.art8 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+
+
 .boton {
     background-color: #140e11;
     color: aliceblue;
@@ -186,7 +255,8 @@ nav a:active {
 }
 
 .carousel-inner img {
-    height: 600px;
+    object-fit: cover;
+    height: 100%;
     width: 100%;
 }
 
@@ -279,20 +349,21 @@ textarea.form-control {
         height: auto;
     }
     .derechos_footer {
-        font-size: 0.9rem;
-        margin-left: 0.2rem;
-        width: 50%;
+        font-size: 0.8rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: 60%;
     }
     .whatsapp {
-        width: 2rem;
+        width: 1.7rem;
         margin-right: 3.5em;
     }
     .instagram {
-        width: 2rem;
+        width: 1.7rem;
         margin-right: 3.5em;
     }
     .email {
-        width: 2rem;
+        width: 1.7rem;
         margin-right: 3.5em;
     }
 
@@ -338,5 +409,16 @@ textarea.form-control {
         border-color: #b63f71;
         padding: 3px;
         margin: 2px;
+    }
+
+    .r2 {
+        text-align: center;
+        display: inline-block;
+        margin: 30px;
+    }
+    
+    .r2 img {
+        max-width: 15%; /* Hace que las imágenes sean responsivas */
+        height: auto;
     }
 }
