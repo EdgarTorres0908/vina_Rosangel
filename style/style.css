@@ -34,9 +34,6 @@ a {
     font-size: 1.5rem;
 }
 .contenedor_flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100%;
     width: 100%;
 }
@@ -297,6 +294,33 @@ textarea.form-control {
     margin-left: 41%;
 }
 
+.card {
+    align-items: center;
+    align-content: center;
+    width: 30%;
+    height: auto;
+    margin: 5% auto;
+    color: rgb(71, 7, 7);
+    background-color: #BFA5A7;
+
+}
+.card-img-top {
+    object-fit: cover;
+    height: 65%;
+    width: 75%;
+}
+
+.custom-button2 {
+    background-color: #381423; /* Cambia el fondo del botón */
+    color: rgb(233, 229, 229); /* Cambia el color de letra del botón */
+    border: 1px solid bisque;
+}
+
+.card-text {
+    font-family: 'Lancelot', cursive;
+    font-family: 'Work Sans', sans-serif;
+}
+
 
 
 
@@ -420,5 +444,14 @@ textarea.form-control {
     .r2 img {
         max-width: 15%; /* Hace que las imágenes sean responsivas */
         height: auto;
+    }
+
+    .card {
+        font-size: 0.9rem;
+        width: 50%;
+    }
+
+    ::placeholder {
+        font-size: 0.7rem;
     }
 }
