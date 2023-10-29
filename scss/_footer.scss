@@ -1,0 +1,38 @@
+footer {
+    background-color: $footer-background;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    .whatsapp, .instagram, .email {
+      width: 2.9rem;
+      margin-right: 5em;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12px;
+    }
+    
+    .derechos_footer{
+        display: flex;
+        color: rgb(112, 14, 34);
+        font-size: 1.5rem;
+        margin-left: 1.5em;
+        margin-right: 1rem;
+        text-align: center;
+    }
+    .parrafo {
+        margin: 25px;
+        text-align: justify;
+    }
+    .logo {
+        width: 20rem;
+        height: auto;
+    }
+    
+  
+    // Agregar estilos para el pie de página aquí
+  }

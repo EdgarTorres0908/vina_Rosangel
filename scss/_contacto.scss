@@ -1,0 +1,78 @@
+@import 'variables';
+
+.c1 {
+  margin: 5px;
+
+  .form-control::placeholder {
+    color: $text-color;
+  }
+
+  textarea.form-control {
+    height: 120px;
+  }
+
+  .custom-button {
+    background-color: $background-color;
+    color: white;
+  }
+
+  .custom-button2 {
+    background-color: $background-color;
+    color: white;
+    border: 1px solid bisque;
+  }
+  
+.gps {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 4% auto;
+    height: 70%;
+
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+textarea.form-control {
+    height: 120px;
+}
+
+/* Estilos personalizados para los elementos input de tipo texto */
+.form-control::placeholder {
+    color: rgb(71, 7, 7); /* Cambiar el color del texto del placeholder */
+    /*background-color: lightgray;  Cambiar el fondo del placeholder */
+}
+
+.card {
+    align-items: center;
+    align-content: center;
+    width: 30%;
+    height: auto;
+    margin: 5% auto;
+    color: rgb(71, 7, 7);
+    background-color: #BFA5A7;
+
+}
+.card-img-top {
+    object-fit: cover;
+    height: 65%;
+    width: 75%;
+}
+
+.card-text {
+    font-family: 'Lancelot', cursive;
+    font-family: 'Work Sans', sans-serif;
+}
+.contenedor_flex {
+  height: 100%;
+  width: 100%;
+}
+.imagen_inicial {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+}

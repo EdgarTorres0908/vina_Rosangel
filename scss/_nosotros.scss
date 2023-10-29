@@ -1,0 +1,42 @@
+@import 'variables';
+
+.h2 {
+  margin: 4%;
+  text-align: center;
+  color: $text-color;
+}
+.contenedor_flex {
+  height: 100%;
+  width: 100%;
+}
+.imagen_inicial {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.parrafo {
+  margin: 25px;
+  text-align: justify;
+  color: $text-color;
+}
+
+.i_flex {
+  display: flex;
+  justify-content: space-between;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.i_cont_historia2 {
+  width: 100%;
+  max-width: 100%;
+}
+
+.ihistoria2 {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}

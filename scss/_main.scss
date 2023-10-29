@@ -1,0 +1,10 @@
+main {
+    background: linear-gradient(to right top, map-get($colors, primary), map-get($colors, quinary));
+    padding-bottom: 1%;
+  
+    // Agregar estilos para la sección principal aquí
+  
+    @media (min-width: 320px) and (max-width: 720px) {
+      // Estilos responsivos para la sección principal
+    }
+  }

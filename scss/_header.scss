@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: $background-color;
+  
+    .logo {
+      width: 20rem;
+      height: auto;
+    }
+
+    .i1 {
+        display: flex;
+    }
+    .i_iconos {    
+        width: 2.8rem;
+        height: auto;
+        margin-right: 0.8rem;
+    }
+    ul, li {
+        display: inline-block;
+        list-style-type: none;
+        margin-right: 12px;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(128, 10, 33);
+        font-size: 1.5rem;
+    }
+  
+    // Agregar estilos para los elementos de la cabecera aquí
+  }

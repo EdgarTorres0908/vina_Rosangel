@@ -1,0 +1,100 @@
+@import 'variables';
+
+.h2 {
+  margin: 4%;
+  text-align: center;
+  color: $text-color;
+}
+.contenedor_flex {
+  height: 100%;
+  width: 100%;
+}
+.imagen_inicial {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.parrafo {
+  margin: 25px;
+  text-align: justify;
+  color: $text-color;
+}
+
+.vino_top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+
+  img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+  }
+}
+
+.vino_tendencia {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+
+  img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+  }
+
+.art1 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+.art2 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+.art3 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+.art4 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+
+.art5 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+
+.art6 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+
+.art7 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+
+.art8 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+
+
+.boton {
+    background-color: #140e11;
+    color: aliceblue;
+    border: 2px;
+    border-style: solid;
+    border-color: #b63f71;
+    padding: 3px;
+}
+}

@@ -1,0 +1,336 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: #140e11;
+}
+header .logo {
+  width: 20rem;
+  height: auto;
+}
+header .i1 {
+  display: flex;
+}
+header .i_iconos {
+  width: 2.8rem;
+  height: auto;
+  margin-right: 0.8rem;
+}
+header ul, header li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 12px;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+}
+header a {
+  text-decoration: none;
+  color: rgb(128, 10, 33);
+  font-size: 1.5rem;
+}
+
+main {
+  background: linear-gradient(to right top, #60102c, #140e11);
+  padding-bottom: 1%;
+}
+footer {
+  background-color: #BFA5A7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .whatsapp, footer .instagram, footer .email {
+  width: 2.9rem;
+  margin-right: 5em;
+}
+footer .redes {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+footer .derechos_footer {
+  display: flex;
+  color: rgb(112, 14, 34);
+  font-size: 1.5rem;
+  margin-left: 1.5em;
+  margin-right: 1rem;
+  text-align: center;
+}
+footer .parrafo {
+  margin: 25px;
+  text-align: justify;
+}
+footer .logo {
+  width: 20rem;
+  height: auto;
+}
+
+.h2 {
+  margin: 4%;
+  text-align: center;
+  color: rgb(128, 10, 33);
+}
+
+.contenedor_flex {
+  height: 100%;
+  width: 100%;
+}
+
+.imagen_inicial {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.parrafo {
+  margin: 25px;
+  text-align: justify;
+  color: rgb(128, 10, 33);
+}
+
+.vino_top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+.vino_top img {
+  object-fit: contain;
+  height: 55%;
+  width: 55%;
+}
+
+.vino_tendencia {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+.vino_tendencia img {
+  object-fit: contain;
+  height: 55%;
+  width: 55%;
+}
+.vino_tendencia .art1 img {
+  object-fit: contain;
+  height: 55%;
+  width: 55%;
+}
+.vino_tendencia .art2 img {
+  object-fit: contain;
+  height: 55%;
+  width: 55%;
+}
+.vino_tendencia .art3 img {
+  object-fit: contain;
+  height: 55%;
+  width: 55%;
+}
+.vino_tendencia .art4 img {
+  object-fit: contain;
+  height: 55%;
+  width: 55%;
+}
+.vino_tendencia .art5 img {
+  object-fit: contain;
+  height: 55%;
+  width: 55%;
+}
+.vino_tendencia .art6 img {
+  object-fit: contain;
+  height: 55%;
+  width: 55%;
+}
+.vino_tendencia .art7 img {
+  object-fit: contain;
+  height: 55%;
+  width: 55%;
+}
+.vino_tendencia .art8 img {
+  object-fit: contain;
+  height: 55%;
+  width: 55%;
+}
+.vino_tendencia .boton {
+  background-color: #140e11;
+  color: aliceblue;
+  border: 2px;
+  border-style: solid;
+  border-color: #b63f71;
+  padding: 3px;
+}
+
+.c1 {
+  margin: 5px;
+  /* Estilos personalizados para los elementos input de tipo texto */
+}
+.c1 .form-control::placeholder {
+  color: rgb(128, 10, 33);
+}
+.c1 textarea.form-control {
+  height: 120px;
+}
+.c1 .custom-button {
+  background-color: #140e11;
+  color: white;
+}
+.c1 .custom-button2 {
+  background-color: #140e11;
+  color: white;
+  border: 1px solid bisque;
+}
+.c1 .gps {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  margin: 4% auto;
+  height: 70%;
+}
+.c1 .form-control {
+  margin-bottom: 10px;
+}
+.c1 textarea.form-control {
+  height: 120px;
+}
+.c1 .form-control::placeholder {
+  color: rgb(71, 7, 7); /* Cambiar el color del texto del placeholder */
+  /*background-color: lightgray;  Cambiar el fondo del placeholder */
+}
+.c1 .card {
+  align-items: center;
+  align-content: center;
+  width: 30%;
+  height: auto;
+  margin: 5% auto;
+  color: rgb(71, 7, 7);
+  background-color: #BFA5A7;
+}
+.c1 .card-img-top {
+  object-fit: cover;
+  height: 65%;
+  width: 75%;
+}
+.c1 .card-text {
+  font-family: "Lancelot", cursive;
+  font-family: "Work Sans", sans-serif;
+}
+.c1 .contenedor_flex {
+  height: 100%;
+  width: 100%;
+}
+.c1 .imagen_inicial {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+h2 {
+  margin: 4%;
+  text-align: center;
+  color: rgb(128, 10, 33);
+}
+
+.contenedor_flex {
+  height: 100%;
+  width: 100%;
+}
+
+.imagen_inicial {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.parrafo {
+  margin: 25px;
+  text-align: justify;
+  color: rgb(128, 10, 33);
+}
+
+.r1 {
+  text-align: center;
+}
+.r1 img {
+  width: 12%;
+  height: auto;
+}
+.r1 .r1 {
+  text-align: center;
+}
+.r1 .r1 img {
+  width: 12%;
+  height: auto;
+}
+.r1 .r2 {
+  text-align: center;
+  display: inline-block;
+  margin: 30px;
+}
+.r1 .r2 img {
+  max-width: 15%; /* Hace que las imágenes sean responsivas */
+  height: auto;
+}
+.r1 .certificados_vino1 {
+  object-fit: cover;
+  height: 80%;
+  width: 80%;
+}
+.r1 .certificados_vino2 {
+  object-fit: cover;
+  height: 55%;
+  width: 55%;
+}
+
+.h2 {
+  margin: 4%;
+  text-align: center;
+  color: rgb(128, 10, 33);
+}
+
+.contenedor_flex {
+  height: 100%;
+  width: 100%;
+}
+
+.imagen_inicial {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.parrafo {
+  margin: 25px;
+  text-align: justify;
+  color: rgb(128, 10, 33);
+}
+
+.i_flex {
+  display: flex;
+  justify-content: space-between;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.i_cont_historia2 {
+  width: 100%;
+  max-width: 100%;
+}
+
+.ihistoria2 {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+/*# sourceMappingURL=style.css.map */

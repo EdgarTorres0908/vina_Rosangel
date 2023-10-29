@@ -1,0 +1,64 @@
+@import 'variables';
+
+h2 {
+  margin: 4%;
+  text-align: center;
+  color: $text-color;
+}
+.contenedor_flex {
+  height: 100%;
+  width: 100%;
+}
+.imagen_inicial {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.parrafo {
+  margin: 25px;
+  text-align: justify;
+  color: $text-color;
+}
+
+.r1 {
+  text-align: center;
+
+  img {
+    width: 12%;
+    height: auto;
+  }
+  .r1 {
+    text-align: center;
+}
+
+.r1 img {
+    width: 12%;
+    height: auto;
+}
+
+.r2 {
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+}
+
+.r2 img {
+    max-width: 15%; /* Hace que las imágenes sean responsivas */
+    height: auto;
+}
+.certificados_vino1 {
+  object-fit: cover;
+  height: 80%;
+  width: 80%;
+}
+
+.certificados_vino2 {
+  object-fit: cover;
+  height: 55%;
+  width: 55%;
+}
+
+
+
+}
