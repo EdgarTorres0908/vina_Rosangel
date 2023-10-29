@@ -1,0 +1,457 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2 {
+    margin: 4%;
+    text-align: center;
+}
+.logo {
+    width: 20rem;
+    height: auto;
+}
+.i1 {
+    display: flex;
+}
+.i_iconos {    
+    width: 2.8rem;
+    height: auto;
+    margin-right: 0.8rem;
+}
+ul, li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 12px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: rgb(128, 10, 33);
+    font-size: 1.5rem;
+}
+.contenedor_flex {
+    height: 100%;
+    width: 100%;
+}
+.imagen_inicial {
+    max-height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.parrafo {
+    margin: 25px;
+    text-align: justify;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;   
+}
+main {
+    background-image: linear-gradient(to right top, #60102c, #4c1328, #381423, #26131b, #140e11);
+    padding-bottom: 1%;
+}
+.ihistoria {
+    flex: 50%;
+    margin: 2%;
+}
+iframe {
+    flex: 50%;
+}
+.i_flex {
+    display: flex;
+    justify-content: space-between;
+    max-height: 100%;
+    max-width: 100%;
+}
+.i_cont_historia2 {
+    width: 100%; /* El contenedor ocupa el 100% del ancho del viewport */
+    max-width: 100%;
+}
+.ihistoria2 {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+footer{
+    background-color: #BFA5A7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.whatsapp {
+    width: 2.9rem;
+    margin-right: 5em;
+}
+.instagram {
+    width: 2.9rem;
+    margin-right: 5em;
+}
+.email {
+    width: 2.9rem;
+    margin-right: 5em;
+}
+.redes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.derechos_footer{
+    display: flex;
+    color: rgb(112, 14, 34);
+    font-size: 1.5rem;
+    margin-left: 1.5em;
+    margin-right: 1rem;
+    text-align: center;
+}
+.texto {
+    font-family: 'Lancelot', cursive;
+    font-family: 'Work Sans', sans-serif;
+    color: aliceblue;
+}
+.arriba {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(14, 1, 1);
+    margin-top: 5%;
+    padding-bottom: 4%;
+}
+.arriba:hover {
+    color: aliceblue;
+}
+nav a {
+    transition: background-color 0.1s, color 0.1s;
+}
+nav a:active {
+    background-color: #5c0813;
+    color: #faf9f9;
+    padding: 5px 10px;
+}
+.c1 {
+    margin: 5px;
+}
+.c2{
+    margin-top: 170px;
+}
+.n1{
+    color: aliceblue;
+    margin: 15px;
+
+}
+
+
+.r1 {
+    text-align: center;
+}
+
+.r1 img {
+    width: 12%;
+    height: auto;
+}
+
+.r2 {
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+}
+
+.r2 img {
+    max-width: 15%; /* Hace que las imágenes sean responsivas */
+    height: auto;
+}
+
+.certificados_vino1 {
+    object-fit: cover;
+    height: 80%;
+    width: 80%;
+}
+
+.certificados_vino2 {
+    object-fit: cover;
+    height: 55%;
+    width: 55%;
+}
+
+
+.vino_top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+.art1 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+.art2 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+.art3 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+.art4 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+
+.vino_tendencia {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.art5 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+
+.art6 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+
+.art7 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+
+.art8 img {
+    object-fit: contain;
+    height: 55%;
+    width: 55%;
+}
+
+
+.boton {
+    background-color: #140e11;
+    color: aliceblue;
+    border: 2px;
+    border-style: solid;
+    border-color: #b63f71;
+    padding: 3px;
+}
+
+.carousel-inner img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/*css form bootstrap*/
+
+.c1 {
+    max-width: 50%;
+    margin: 0 auto;
+}
+.gps {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 4% auto;
+    height: 70%;
+
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+textarea.form-control {
+    height: 120px;
+}
+
+/* Estilos personalizados para los elementos input de tipo texto */
+.form-control::placeholder {
+    color: rgb(71, 7, 7); /* Cambiar el color del texto del placeholder */
+    /*background-color: lightgray;  Cambiar el fondo del placeholder */
+}
+
+.custom-button {
+    background-color: #381423; /* Cambia el fondo del botón */
+    color: rgb(233, 229, 229); /* Cambia el color de letra del botón */
+    border: 1px solid bisque; /* Elimina el borde si deseas un aspecto más limpio */
+    /* Otras propiedades de estilo personalizado si es necesario */
+    margin-left: 41%;
+}
+
+.card {
+    align-items: center;
+    align-content: center;
+    width: 30%;
+    height: auto;
+    margin: 5% auto;
+    color: rgb(71, 7, 7);
+    background-color: #BFA5A7;
+
+}
+.card-img-top {
+    object-fit: cover;
+    height: 65%;
+    width: 75%;
+}
+
+.custom-button2 {
+    background-color: #381423; /* Cambia el fondo del botón */
+    color: rgb(233, 229, 229); /* Cambia el color de letra del botón */
+    border: 1px solid bisque;
+}
+
+.card-text {
+    font-family: 'Lancelot', cursive;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 720px) {
+
+    header {
+        height: auto;
+        width: 100%;
+    }
+
+    ul li {
+        display: block;
+    }
+    nav ul {
+        display: block;
+    }
+    a {
+        font-size: 0.7em;
+    }
+    .imagen_inicial {
+        height: auto;
+        width: 100%;
+    }
+    .logo {
+        width: 90%;
+        height: auto;
+    }
+    .i_iconos {
+        width: 2.2rem;
+    height: auto;
+    margin-right: 0.5rem;
+    }
+    .ihistoria {
+        font-size: 0.8em;
+        margin-bottom: 2%;
+    }
+    .i_flex {
+        flex-direction: column;
+    }
+    iframe {
+        margin-top: 5%;
+    }
+    .arriba {
+        margin-top: 1%;
+        font-size: 1.2rem;
+    }
+    footer {
+        width: 100%;
+        height: auto;
+    }
+    .derechos_footer {
+        font-size: 0.8rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: 60%;
+    }
+    .whatsapp {
+        width: 1.7rem;
+        margin-right: 3.5em;
+    }
+    .instagram {
+        width: 1.7rem;
+        margin-right: 3.5em;
+    }
+    .email {
+        width: 1.7rem;
+        margin-right: 3.5em;
+    }
+
+    .vino_top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "art1 art2"
+        "art3 art4"
+        ;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    .vino_tendencia {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "art5 art6"
+        "art7 art8"
+        ;
+        text-align: center;
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+    .vinos {
+        height: 55%;
+        width: 45%;
+    }
+    article {
+        height: 100%;
+        font-size: 0.7rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    .boton {
+        background-color: #140e11;
+        color: aliceblue;
+        border: 2px;
+        border-style: solid;
+        border-color: #b63f71;
+        padding: 3px;
+        margin: 2px;
+    }
+
+    .r2 {
+        text-align: center;
+        display: inline-block;
+        margin: 30px;
+    }
+    
+    .r2 img {
+        max-width: 15%; /* Hace que las imágenes sean responsivas */
+        height: auto;
+    }
+
+    .card {
+        font-size: 0.9rem;
+        width: 50%;
+    }
+
+    ::placeholder {
+        font-size: 0.7rem;
+    }
+}
