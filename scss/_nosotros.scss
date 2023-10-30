@@ -1,42 +1,40 @@
 @import 'variables';
 
-.h2 {
-  margin: 4%;
-  text-align: center;
-  color: $text-color;
-}
-.contenedor_flex {
+.carousel-inner img {
+  object-fit: cover;
   height: 100%;
   width: 100%;
+  
 }
-.imagen_inicial {
-  max-height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.parrafo {
-  margin: 25px;
-  text-align: justify;
-  color: $text-color;
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.7); // Cambia el color de fondo del carousel caption
+  color: #fff; // Cambia el color del texto dentro del carousel caption
+  padding: 4%; // Añade espacio interno al carousel caption
 }
 
-.i_flex {
-  display: flex;
-  justify-content: space-between;
-  max-height: 100%;
-  max-width: 100%;
+.carousel-caption h5 {
+  font-size: 1.6rem; // Establece el tamaño de fuente para los títulos
 }
 
-.i_cont_historia2 {
-  width: 100%;
-  max-width: 100%;
+.carousel-caption p {
+  font-size: 2rem; // Establece el tamaño de fuente para el texto
 }
 
-.ihistoria2 {
-  height: 50%;
-  width: 100%;
-  object-fit: cover;
-  margin-top: 10%;
-  margin-bottom: 10%;
+@media (min-width: 320px) and (max-width: 720px) {
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); // Cambia el color de fondo del carousel caption
+    color: #fff; // Cambia el color del texto dentro del carousel caption
+    padding: 4%; // Añade espacio interno al carousel caption
+}
+
+  
+.carousel-caption h5 {
+    font-size: 0.8rem; // Establece el tamaño de fuente para los títulos
+}
+  
+.carousel-caption p {
+    font-size: 1.1rem; // Establece el tamaño de fuente para el texto
+}
+
 }

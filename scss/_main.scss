@@ -1,10 +1,57 @@
 main {
     background: linear-gradient(to right top, map-get($colors, primary), map-get($colors, quinary));
     padding-bottom: 1%;
-  
+    
+    .ihistoria {
+        flex: 50%;
+        margin: 2%;
+    }
+    iframe {
+        flex: 50%;
+    }
+    .i_flex {
+        display: flex;
+        justify-content: space-between;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .i_cont_historia2 {
+        width: 100%; /* El contenedor ocupa el 100% del ancho del viewport */
+        max-width: 100%;
+    }
+    .ihistoria2 {
+        height: 50%;
+        width: 100%;
+        object-fit: cover;
+    
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+      
     // Agregar estilos para la sección principal aquí
   
     @media (min-width: 320px) and (max-width: 720px) {
-      // Estilos responsivos para la sección principal
+        .imagen_inicial {
+            height: auto;
+            width: 100%;
+        }
+        .ihistoria {
+            font-size: 0.8em;
+            margin-bottom: 2%;
+        }
+        .i_flex {
+            flex-direction: column;
+        }
+        iframe {
+            margin-top: 5%;
+        }
+        .arriba {
+            margin-top: 1%;
+            font-size: 1.2rem;
+        }
+        h1 {
+            font-size: 1.7rem;
+        }
+
     }
   }

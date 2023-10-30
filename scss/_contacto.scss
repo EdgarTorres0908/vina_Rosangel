@@ -1,7 +1,41 @@
 @import 'variables';
 
+.gps {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  margin: 4% auto;
+  height: 70%;
+}
+.card {
+  align-items: center;
+  align-content: center;
+  width: 30%;
+  height: auto;
+  margin: 5% auto;
+  color: rgb(71, 7, 7);
+  background-color: #BFA5A7;
+
+  img {
+    object-fit: cover;
+    height: 25%;
+    width: 35%;
+  }
+
+  .card-text {
+    font-family: 'Lancelot', cursive;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  .custom-button2 {
+    background-color: $background-color;
+    color: white;
+    border: 1px solid bisque;
+  }
+}
 .c1 {
-  margin: 5px;
+  max-width: 60%;
+  margin: 0 auto;
 
   .form-control::placeholder {
     color: $text-color;
@@ -11,68 +45,28 @@
     height: 120px;
   }
 
-  .custom-button {
-    background-color: $background-color;
-    color: white;
-  }
-
-  .custom-button2 {
-    background-color: $background-color;
-    color: white;
-    border: 1px solid bisque;
-  }
+ .btn-primary {
+  @include boton_style;
+ }
   
-.gps {
-    display: flex;
-    justify-content: center;
-    max-width: 100%;
-    margin: 4% auto;
-    height: 70%;
-
-}
-
 .form-control {
     margin-bottom: 10px;
 }
 
 textarea.form-control {
-    height: 120px;
+    height: 100px;
 }
 
-/* Estilos personalizados para los elementos input de tipo texto */
 .form-control::placeholder {
     color: rgb(71, 7, 7); /* Cambiar el color del texto del placeholder */
     /*background-color: lightgray;  Cambiar el fondo del placeholder */
 }
 
-.card {
-    align-items: center;
-    align-content: center;
-    width: 30%;
-    height: auto;
-    margin: 5% auto;
-    color: rgb(71, 7, 7);
-    background-color: #BFA5A7;
+@media (min-width: 320px) and (max-width: 720px) {
 
-}
-.card-img-top {
-    object-fit: cover;
-    height: 65%;
-    width: 75%;
-}
-
-.card-text {
-    font-family: 'Lancelot', cursive;
-    font-family: 'Work Sans', sans-serif;
-}
-.contenedor_flex {
-  height: 100%;
-  width: 100%;
-}
-.imagen_inicial {
-  max-height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
+    h5 {
+        font-size: 0.4rem;
+    }
+    
+  }
 }

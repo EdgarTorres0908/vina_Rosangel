@@ -4,6 +4,14 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    .derechos_footer {
+        display: flex;
+        font-size: 1.8rem;
+        margin-left: 1.5em;
+        margin-right: 1rem;
+        text-align: center;        
+    }
   
     .whatsapp, .instagram, .email {
       width: 2.9rem;
@@ -16,23 +24,44 @@ footer {
         margin-top: 12px;
     }
     
-    .derechos_footer{
-        display: flex;
-        color: rgb(112, 14, 34);
-        font-size: 1.5rem;
-        margin-left: 1.5em;
-        margin-right: 1rem;
-        text-align: center;
-    }
     .parrafo {
         margin: 25px;
         text-align: justify;
+        color: $link-color;
     }
     .logo {
         width: 20rem;
         height: auto;
     }
     
-  
-    // Agregar estilos para el pie de página aquí
+    @media (min-width: 320px) and (max-width: 720px) {
+
+        footer {
+            width: 100%;
+            height: auto;
+        }
+        .derechos_footer {
+            font-size: 0.8rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            width: 60%;
+        }
+        .whatsapp {
+            width: 1.7rem;
+            margin-right: 3em;
+        }
+        .instagram {
+            width: 1.7rem;
+            margin-right: 3em;
+        }
+        .email {
+            width: 1.7rem;
+            margin-right: 3em;
+        }
+        .logo {
+            width: 90%;
+            height: auto;
+        }
+    
   }
+}

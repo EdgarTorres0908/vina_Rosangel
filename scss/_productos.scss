@@ -1,25 +1,5 @@
 @import 'variables';
 
-.h2 {
-  margin: 4%;
-  text-align: center;
-  color: $text-color;
-}
-.contenedor_flex {
-  height: 100%;
-  width: 100%;
-}
-.imagen_inicial {
-  max-height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-.parrafo {
-  margin: 25px;
-  text-align: justify;
-  color: $text-color;
-}
-
 .vino_top {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -30,6 +10,7 @@
     height: 55%;
     width: 55%;
   }
+
 }
 
 .vino_tendencia {
@@ -42,59 +23,54 @@
     height: 55%;
     width: 55%;
   }
-
-.art1 img {
-    object-fit: contain;
-    height: 55%;
-    width: 55%;
 }
-.art2 img {
-    object-fit: contain;
-    height: 55%;
-    width: 55%;
-}
-.art3 img {
-    object-fit: contain;
-    height: 55%;
-    width: 55%;
-}
-.art4 img {
-    object-fit: contain;
-    height: 55%;
-    width: 55%;
-}
-
-.art5 img {
-    object-fit: contain;
-    height: 55%;
-    width: 55%;
-}
-
-.art6 img {
-    object-fit: contain;
-    height: 55%;
-    width: 55%;
-}
-
-.art7 img {
-    object-fit: contain;
-    height: 55%;
-    width: 55%;
-}
-
-.art8 img {
-    object-fit: contain;
-    height: 55%;
-    width: 55%;
+article {
+  color: $text-color;
 }
 
 
-.boton {
-    background-color: #140e11;
-    color: aliceblue;
-    border: 2px;
-    border-style: solid;
-    border-color: #b63f71;
-    padding: 3px;
-}
-}
+
+
+@media (min-width: 320px) and (max-width: 720px) {
+
+    .vino_top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "art1 art2"
+        "art3 art4"
+        ;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    .vino_tendencia {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "art5 art6"
+        "art7 art8"
+        ;
+        text-align: center;
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+    .vinos {
+        height: 55%;
+        width: 45%;
+    }
+    article {
+        height: 100%;
+        color: $text-color;
+        font-size: 0.8rem;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    .boton {
+      font-size: 0.7rem;
+      width: 60%;
+    }
+  }
+

@@ -280,7 +280,6 @@ textarea.form-control {
     height: 120px;
 }
 
-/* Estilos personalizados para los elementos input de tipo texto */
 .form-control::placeholder {
     color: rgb(71, 7, 7); /* Cambiar el color del texto del placeholder */
     /*background-color: lightgray;  Cambiar el fondo del placeholder */
@@ -290,7 +289,6 @@ textarea.form-control {
     background-color: #381423; /* Cambia el fondo del botón */
     color: rgb(233, 229, 229); /* Cambia el color de letra del botón */
     border: 1px solid bisque; /* Elimina el borde si deseas un aspecto más limpio */
-    /* Otras propiedades de estilo personalizado si es necesario */
     margin-left: 41%;
 }
 
