@@ -15,6 +15,7 @@ h1 {
   text-align: center;
   color: aliceblue;
   font-weight: bold;
+  margin-bottom: 3%;
 }
 
 h2 {
@@ -28,6 +29,7 @@ h2 {
   max-height: 100%;
   width: 100%;
   object-fit: cover;
+  margin-bottom: 5%;
 }
 
 .contenedor_flex {
@@ -353,10 +355,11 @@ article {
   margin: 0 auto;
 }
 .c1 .form-control::placeholder {
-  color: aliceblue;
+  color: #5c0813;
+  font-size: 1.2rem;
 }
 .c1 textarea.form-control {
-  height: 120px;
+  height: 100px;
 }
 .c1 .btn-primary {
   background-color: #2e1723;
@@ -374,16 +377,12 @@ article {
 .c1 .form-control {
   margin-bottom: 10px;
 }
-.c1 textarea.form-control {
-  height: 100px;
-}
-.c1 .form-control::placeholder {
-  color: rgb(71, 7, 7); /* Cambiar el color del texto del placeholder */
-  /*background-color: lightgray;  Cambiar el fondo del placeholder */
-}
 @media (min-width: 320px) and (max-width: 720px) {
   .c1 h5 {
     font-size: 0.4rem;
+  }
+  .c1 .form-control::placeholder {
+    font-size: 0.6rem;
   }
 }
 

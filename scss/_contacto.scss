@@ -38,34 +38,32 @@
   margin: 0 auto;
 
   .form-control::placeholder {
-    color: $text-color;
+    color: $link-color;
+    font-size: 1.2rem;
   }
 
   textarea.form-control {
-    height: 120px;
+    height: 100px;
   }
 
  .btn-primary {
   @include boton_style;
- }
+  }
   
 .form-control {
     margin-bottom: 10px;
 }
 
-textarea.form-control {
-    height: 100px;
-}
-
-.form-control::placeholder {
-    color: rgb(71, 7, 7); /* Cambiar el color del texto del placeholder */
-    /*background-color: lightgray;  Cambiar el fondo del placeholder */
-}
 
 @media (min-width: 320px) and (max-width: 720px) {
 
     h5 {
         font-size: 0.4rem;
+    }
+
+    .form-control::placeholder {
+    
+      font-size: 0.6rem;
     }
     
   }
