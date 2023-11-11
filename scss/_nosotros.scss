@@ -2,39 +2,40 @@
 
 .carousel-inner img {
   object-fit: cover;
-  height: 100%;
+  max-height: 100vh;
   width: 100%;
-  
 }
+
+
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.7); // Cambia el color de fondo del carousel caption
-  color: #fff; // Cambia el color del texto dentro del carousel caption
-  padding: 4%; // Añade espacio interno al carousel caption
+  background-color: rgba(0, 0, 0, 0.7); 
+  color: #fff; 
+  padding: 2%; 
 }
 
 .carousel-caption h5 {
-  font-size: 1.6rem; // Establece el tamaño de fuente para los títulos
+  font-size: 1.6rem; 
 }
 
 .carousel-caption p {
-  font-size: 2rem; // Establece el tamaño de fuente para el texto
+  font-size: 2rem; 
 }
 
 @media (min-width: 320px) and (max-width: 720px) {
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.7); // Cambia el color de fondo del carousel caption
-    color: #fff; // Cambia el color del texto dentro del carousel caption
-    padding: 4%; // Añade espacio interno al carousel caption
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff; 
+    padding: 2%; 
 }
 
   
 .carousel-caption h5 {
-    font-size: 0.8rem; // Establece el tamaño de fuente para los títulos
+    font-size: 0.8rem; 
 }
   
 .carousel-caption p {
-    font-size: 1.1rem; // Establece el tamaño de fuente para el texto
+    font-size: 1.1rem; 
 }
 
 }

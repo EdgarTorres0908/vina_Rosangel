@@ -19,3 +19,13 @@
     height: auto;
   }
 }
+
+@media (min-width: 320px) and (max-width: 720px) {
+
+  h1 {
+    padding: 5%;
+  }
+  h2 {
+    padding: 6%;
+  }
+}

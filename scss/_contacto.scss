@@ -51,20 +51,18 @@
   }
   
 .form-control {
-    margin-bottom: 10px;
-}
-
-
-@media (min-width: 320px) and (max-width: 720px) {
-
-    h5 {
-        font-size: 0.4rem;
-    }
+    height: 10%;
+    font-size: 0.4rem;
+  }
 
     .form-control::placeholder {
     
       font-size: 0.6rem;
     }
     
+    .form-control {
+      margin-bottom: 10px;
+    }
+
+    
   }
-}

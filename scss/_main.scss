@@ -12,11 +12,11 @@ main {
     .i_flex {
         display: flex;
         justify-content: space-between;
-        max-height: 100%;
+        max-height: 90%;
         max-width: 100%;
     }
     .i_cont_historia2 {
-        width: 100%; /* El contenedor ocupa el 100% del ancho del viewport */
+        width: 100%; 
         max-width: 100%;
     }
     .ihistoria2 {
@@ -28,7 +28,7 @@ main {
         margin-bottom: 10%;
     }
       
-    // Agregar estilos para la sección principal aquí
+    
   
     @media (min-width: 320px) and (max-width: 720px) {
         .imagen_inicial {
